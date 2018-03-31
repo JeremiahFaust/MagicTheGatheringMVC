@@ -8,9 +8,53 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MTGMVC.Controllers
 {
-    [Route("api/[controller]")]
-    public class MagicDBConsumer : Controller
+    //[Route("Magic/[controller]")]
+    public class MagicController : Controller
     {
+
+
+        public IActionResult CardSearch()
+        {
+            ViewData["Message"] = "Card Search";
+
+            return View();
+        }
+
+        public IActionResult DisplayCards()
+        {
+            ViewData["Message"] = "Display Cards";
+
+            return View();
+        }
+
+        public IActionResult DisplayCard()
+        {
+            ViewData["Message"] = "Display Card";
+
+            return View();
+        }
+
+        public IActionResult DeckSettings()
+        {
+            ViewData["Message"] = "Deck Settings";
+
+            return View();
+        }
+
+        public IActionResult DeckStats()
+        {
+            ViewData["Message"] = "Deck Stats";
+
+            return View();
+        }
+
+        public IActionResult DisplayDecks()
+        {
+            ViewData["Message"] = "Display Decks";
+
+            return View();
+        }
+
         // GET: api/<controller>
         [HttpGet]
         public IEnumerable<string> Get()

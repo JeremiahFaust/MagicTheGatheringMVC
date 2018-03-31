@@ -43,7 +43,11 @@ namespace MTGMVC
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Magic}/{action=DisplayCards}/{id?}");
+                    //.MapRoute(
+                    //name: "Magic", 
+                    //template: "Magic/{controller=MagicDBConsumer}/{action=MagicSearch}");
+
             });
         }
     }

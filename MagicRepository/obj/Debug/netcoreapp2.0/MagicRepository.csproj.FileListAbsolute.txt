@@ -11,3 +11,17 @@ C:\Users\jd\source\repos\MTGMVC\MagicRepository\obj\Debug\netcoreapp2.0\MagicRep
 C:\Users\jd\source\repos\MTGMVC\MagicRepository\obj\Debug\netcoreapp2.0\MagicRepository.AssemblyInfo.cs
 C:\Users\jd\source\repos\MTGMVC\MagicRepository\obj\Debug\netcoreapp2.0\MagicRepository.dll
 C:\Users\jd\source\repos\MTGMVC\MagicRepository\obj\Debug\netcoreapp2.0\MagicRepository.pdb
+C:\Users\jd\source\repos\MagicTheGatheringMVC\MagicRepository\bin\Debug\netcoreapp2.0\MagicRepository.deps.json
+C:\Users\jd\source\repos\MagicTheGatheringMVC\MagicRepository\bin\Debug\netcoreapp2.0\MagicRepository.dll
+C:\Users\jd\source\repos\MagicTheGatheringMVC\MagicRepository\bin\Debug\netcoreapp2.0\MagicRepository.pdb
+C:\Users\jd\source\repos\MagicTheGatheringMVC\MagicRepository\bin\Debug\netcoreapp2.0\MagicDbContext.dll
+C:\Users\jd\source\repos\MagicTheGatheringMVC\MagicRepository\bin\Debug\netcoreapp2.0\MTGMVC.dll
+C:\Users\jd\source\repos\MagicTheGatheringMVC\MagicRepository\bin\Debug\netcoreapp2.0\MTGMVC.pdb
+C:\Users\jd\source\repos\MagicTheGatheringMVC\MagicRepository\bin\Debug\netcoreapp2.0\MagicDbContext.pdb
+C:\Users\jd\source\repos\MagicTheGatheringMVC\MagicRepository\obj\Debug\netcoreapp2.0\MagicRepository.csprojResolveAssemblyReference.cache
+C:\Users\jd\source\repos\MagicTheGatheringMVC\MagicRepository\obj\Debug\netcoreapp2.0\MagicRepository.csproj.CoreCompileInputs.cache
+C:\Users\jd\source\repos\MagicTheGatheringMVC\MagicRepository\obj\Debug\netcoreapp2.0\MagicRepository.AssemblyInfoInputs.cache
+C:\Users\jd\source\repos\MagicTheGatheringMVC\MagicRepository\obj\Debug\netcoreapp2.0\MagicRepository.AssemblyInfo.cs
+C:\Users\jd\source\repos\MagicTheGatheringMVC\MagicRepository\obj\Debug\netcoreapp2.0\MagicRepository.csproj.CopyComplete
+C:\Users\jd\source\repos\MagicTheGatheringMVC\MagicRepository\obj\Debug\netcoreapp2.0\MagicRepository.dll
+C:\Users\jd\source\repos\MagicTheGatheringMVC\MagicRepository\obj\Debug\netcoreapp2.0\MagicRepository.pdb
