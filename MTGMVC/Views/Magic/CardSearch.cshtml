@@ -1,64 +1,50 @@
-﻿
-@*
+﻿@*
     For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
-    
+
 *@
 <html>
 
 <head>
     <style>
         #cardSearch {
-            background-color:darkcyan;
-            border-width: 1px ;
-            border-radius: 10px 10px;
+            background-color:lightgray;
+            border:1px solid black;
+            /*border-radius: 10px 10px;*/
             margin: auto;
             padding: 10px;
-
             display: flex;
-            flex-direction: column;
         }
 
-
-        /*div.form-group {
-            display:inline-flex;
-            flex-flow:row;
-        }*/
-
-        .lblinput{
-            display: block;
-            margin-right: 20px;
+        div {
+            margin: 1px;
         }
 
-        #txtCardName {
-            min-width: 400px;
+        #btnSearchSubmit {
+            float:right;
         }
-        #txtPower, #txtToughness {
-            max-width: 50px;
-        }
-
     </style>
 </head>
 
 <body>
-<section id="cardSearch">
-    
-    <form>
-        <div class="form-group col-sm-9">
-            <label for="txtCardName">Card Name</label>
-            <input type="text" id="txtCardName" name="CardName"/>
-        </div>
-        
-        <div class="form-group col-sm-3 col-xs-6">
-            <label for="selRarity">Rarity</label>
-            <select id="selRarity" class="form-control">
-                <option>Common</option>
-                <option>Uncommon</option>
-                <option>Rare</option>
-            </select>
-        </div>
-        
-        
-            <div class="form-group">
+    <section id="cardSearch">
+
+        <form>
+            <div class="form-group col-sm-9">
+                <label for="txtCardName">Card Name</label>
+                <input type="text" id="txtCardName" name="CardName" class="form-control" />
+            </div>
+
+            <div class="form-group col-sm-2 col-xs-4">
+                <label for="selRarity">Rarity</label>
+                <select id="selRarity" class="form-control">
+                    <option>Common</option>
+                    <option>Uncommon</option>
+                    <option>Rare</option>
+                </select>
+            </div>
+
+
+            <div class="form-group col-sm-3 col-xs-4">
                 <label for="selEdition">Edition</label>
                 <select id="selEdition" class="form-control">
                     <option>M10</option>
@@ -66,56 +52,56 @@
                     <option>M12</option>
                 </select>
             </div>
-            <div class="form-group">
+            <div class="form-group col-sm-2 col-xs-1">
                 <label for="cbJokes">
                     <input type="checkbox" id="cbJokes" />
                     Include Joke Sets?
                 </label>
             </div>
-            <div class="form-group">
+            <div class="form-group col-sm-1 col-xs-3">
                 <label for="txtPower">Power</label>
-                <input type="text" id="txtPower" class="form-control"/>
+                <input type="text" id="txtPower" class="form-control" />
             </div>
-            <div class="form-group">
+            <div class="form-group col-sm-1 col-xs-3">
                 <label for="txtToughness">Tougness</label>
-                <input type="text" id="txtToughness" class="form-control"/>
+                <input type="text" id="txtToughness" class="form-control" />
             </div>
 
-            <div class="form-group">
+            <div class="form-group col-sm-3 col-xs-5">
                 <label for="txtConManaCost">Converted Mana Cost</label>
-                <input id="txtConManaCost" class="form-control"/>
+                <input type="number" id="txtConManaCost" class="form-control" />
             </div>
-            <div class="form-group">
+            <div class="form-group col-sm-2 col-xs-1">
                 <label for="cbWhite">
                     <input type="checkbox" id="cbWhite" />
                     White
                 </label>
             </div>
-            <div class="form-group">
+            <div class="form-group col-sm-2 col-xs-1">
                 <label for="cbBlack">
                     <input type="checkbox" id="cbBlack" />
                     Black
                 </label>
             </div>
-            <div class="form-group">
+            <div class="form-group col-sm-2 col-xs-1">
                 <label for="cbRed">
                     <input type="checkbox" id="cbRed" />
                     Red
                 </label>
             </div>
-            <div class="form-group">
+            <div class="form-group col-sm-2 col-xs-1">
                 <label for="cbGreen">
                     <input type="checkbox" id="cbGreen" />
                     Green
                 </label>
             </div>
-            <div class="form-group">
+            <div class="form-group col-sm-2 col-xs-1">
                 <label for="cbBlue">
                     <input type="checkbox" id="cbBlue" />
                     Blue
                 </label>
             </div>
-            <div class="form-group">
+            <div class="form-group col-sm-2 col-xs-1">
                 <label for="cbExclusive">
                     <input type="checkbox" id="cbExclusive" />
                     Only Selcted Colors
@@ -123,7 +109,7 @@
             </div>
 
 
-            <div class="form-group">
+            <div class="form-group col-sm-4 col-xs-5">
                 <label for="selCardType">Select Card Types</label>
                 <select class="form-control custom-select" id="selCardType" multiple size="3">
                     <option>Creature</option>
@@ -133,7 +119,7 @@
                     <option>Instant</option>
                 </select>
             </div>
-            <div class="form-group">
+            <div class="form-group col-sm-4 col-xs-5">
                 <label for="selAbilities">Select Card Abilities</label>
                 <select class="form-control custom-select" id="selAbilities" multiple size="3">
                     <option>Creature</option>
@@ -144,13 +130,13 @@
                 </select>
             </div>
 
+            <div class="form-group">
+                <input class="btn btn-primary" type="submit" id="btnSearchSubmit" value="Search" />
+            </div>
+        </form>
 
-        <input class="btn btn-primary form-control" type="submit" id="btnSearchSubmit" value="Search"/>
 
-    </form>
-    
-
-</section>
+    </section>
 </body>
 
 </html>
